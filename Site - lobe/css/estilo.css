@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#header-container{
+    box-shadow: rgb(231, 231, 231) 0px 30px 60px -10px;
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+   
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+   
+}
+#menu{
+    display: flex;
+    list-style-type: none;
+    padding:10px;
+    
+}
+#button-menu{
+    background-color: #04ddb2;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#div-button{
+    padding: 10px;
+}
+.menu-items{
+    width: 120px;
+    padding-left: 20px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #767676;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+.menu-link:hover{
+    color: #333;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+
+}
+
+#logo-text{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+}
+#img-logo{
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+   
+}
+
+section{
+    width: 100%;
+   
+    height: 1200px;
+
+
+}
+.section-title{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    color: #333;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    
+}
+.paragr{
+    
+    display: flex;
+    justify-content: center;
+    width: 490px;
+    color: #333;
+    font-size: 24px;
+    line-height: 1.45;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 18px;
+}
+.title-green{
+    color: #04ddb2;
+    
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin-bottom: 10px;
+} 
+
+.conteiner-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+  
+} 
+
+
+.Tour-video{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    border-radius: 30px;
+    
+}
+
+.Tour-video:hover{
+
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    width: 905px;
+    height: 505px;
+    transition: 420ms linear;
+   
+}
+#img-tour-Video{
+    width: 100%;
+    border-radius: 30px;
+  
+}
+
+#button-section{
+    background-color: #04ddb2;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#button-section:hover{
+   padding: 18px;
+   border-radius: 30px;
+   font-size: 20px;
+   transition: 260ms linear;
+    
+}
+.footer-container{
+    border-top: 1px solid #767676da;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 30px;
+   
+}
+footer{
+    margin-top: 30px;
+    padding-top: 70px;
+    width: 100%;
+    
+}
+
+
+
+
+.link-copywrite{
+    text-decoration: none;
+    color:#767676;
+}
+.footer-copywrite-line{
+    color:#767676;
+    padding: 10px;
+}
+
+.footer-copywrite-line:hover{
+    font-size: 18px;
+    
+}
+.footer-copywrite{
+    background-color: orange;
+    width: 200px;
+    height: 280px;
+    padding: 12px;
+}
+.titulo-footer{
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+}
+.div-img-contact{
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+}
+.imgs-container{
+    display: flex;
+}
+.Contact-img{
+    width: 100%;
+    height: 100%;
+   
+}
+#logo-footer{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#img-footer{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+#box-img{
+    display: flex;
+   
+}
+
